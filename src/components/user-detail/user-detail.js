@@ -7,22 +7,22 @@ export class userDetail extends Component {
         let { firstName, lastName, description, address } = this.props.users.find((user) => user.id === this.props.selectedRowId);
         return (
             <div className="data-datailed bd-example">
-                <div>Selected user: <b>{firstName} {lastName}</b></div>
+                <div>Выбран пользователь: <b>{firstName} {lastName}</b></div>
                 <div>
-                    Description:<br />
+                    Описание:<br />
                     <textarea className="form-control" value={description} onChange={() => { }}></textarea>
                 </div>
                 <div>
-                    Address:<b> {address.streetAddress}</b>
+                    Адрес проживания:<b> {address.streetAddress}</b>
                 </div>
                 <div>
-                    City:<b> {address.city}</b>
+                    Город:<b> {address.city}</b>
                 </div>
                 <div>
-                    State:<b> {address.state}</b>
+                    Провинция/штат:<b> {address.state}</b>
                 </div>
                 <div>
-                    Zip:<b> {address.zip}</b>
+                    Индекс:<b> {address.zip}</b>
                 </div>
             </div>
         )

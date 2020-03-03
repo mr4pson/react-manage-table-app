@@ -46,7 +46,7 @@ export class UserPopup extends Component {
                             <label>FirstName</label>
                             <input
                                 type="text"
-                                placeholder="Enter firstName"
+                                placeholder="Введите firstName"
                                 className="form-control"
                                 name="firstName"
                                 onChange={this.onFieldChange.bind(this, "firstName")}
@@ -58,7 +58,7 @@ export class UserPopup extends Component {
                             <label>LastName</label>
                             <input
                                 type="text"
-                                placeholder="Enter lastName"
+                                placeholder="Введите lastName"
                                 className="form-control"
                                 name="lastName"
                                 onChange={this.onFieldChange.bind(this, "lastName")}
@@ -70,7 +70,7 @@ export class UserPopup extends Component {
                             <label>Email</label>
                             <input
                                 type="text"
-                                placeholder="Enter email"
+                                placeholder="Введите email"
                                 className="form-control"
                                 name="email"
                                 onChange={this.onFieldChange.bind(this, "email")}
@@ -82,7 +82,7 @@ export class UserPopup extends Component {
                             <label>Phone</label>
                             <input
                                 type="text"
-                                placeholder="Enter phone"
+                                placeholder="Введите phone"
                                 className="form-control"
                                 name="phone"
                                 onChange={this.onFieldChange.bind(this, "phone")}

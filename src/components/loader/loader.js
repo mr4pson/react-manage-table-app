@@ -6,7 +6,7 @@ export class Loader extends Component {
     render() {
         return (
             <div className={"loader "+(this.props.isLoaderShown ? "active" : "")}>
-                <img alt="" src="https://lh3.googleusercontent.com/proxy/fmFb6Qkpc-Bp-GaCYKzjekZJKtkTkkg5kSt0Zplsf-r1NzGxUps94JFRSZ8J1-j_5-OXcNmt-i5XHdtBwxKPtHfG-Q"/>
+                <img alt="" src="./images/loading.gif"/>
             </div>
         )
     }

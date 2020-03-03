@@ -22,11 +22,11 @@ export function sortAsc(keyName, a, b) {
 export function sortDesc(keyName, a, b) {
     if ((typeof a[keyName] === "number" && a[keyName] < b[keyName]) 
         || typeof (a[keyName] === "string" && a[keyName].toString().toLowerCase() < b[keyName].toString().toLowerCase())) {
-        return 1;
+        return -1;
     }
     if ((typeof a[keyName] === "number" && a[keyName] > b[keyName]) 
         || (typeof a[keyName] === "string" && a[keyName].toString().toLowerCase() > b[keyName].toString().toLowerCase())) {
-        return -1;
+        return 1;
     }
     return 0;
 }
